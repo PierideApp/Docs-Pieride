@@ -1,0 +1,7 @@
+{
+  "icon": "sliders",
+  "description": "Explorer les écrans, l'apparence et les options de personnalisation de Piéride.",
+  "accent": "#2B2BC2",
+  "order": 3,
+  "name": "Interface"
+}

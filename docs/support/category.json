@@ -1,0 +1,7 @@
+{
+  "icon": "help",
+  "description": "Trouver une réponse et résoudre les problèmes courants.",
+  "accent": "#E8901C",
+  "order": 4,
+  "name": "Aide"
+}
