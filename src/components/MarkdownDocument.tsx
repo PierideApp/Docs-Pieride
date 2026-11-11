@@ -100,6 +100,9 @@ export default function MarkdownDocument({page,pages}:{page:DocPage;pages:DocPag
     img({src,alt,node:_node,...props}) {
       return <img src={localMediaHref(typeof src==="string"?src:undefined,page)} alt={alt||""} loading="lazy" {...props} />;
     },
+    table({children,node:_node,...props}) {
+      return <div className="table-scroll"><table {...props}>{children}</table></div>;
+    },
     blockquote({children,node:_node,...props}) {
       return <blockquote {...props}>{children}</blockquote>;
     },

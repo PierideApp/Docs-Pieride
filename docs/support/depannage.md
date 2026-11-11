@@ -2,6 +2,7 @@
 title: Dépannage
 slug: depannage
 description: Résoudre les problèmes de connexion, de synchronisation et de développement.
+cover: assets/depannage/depannage.svg
 featured: false
 ---
 

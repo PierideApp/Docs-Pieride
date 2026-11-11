@@ -23,7 +23,7 @@ La fiche de composants du dossier design/references et le fichier design/tokens.
 
 La navigation est construite à partir des catégories et articles. La barre latérale permet d'ouvrir les catégories, la recherche indexe les textes, et le bouton de thème conserve le choix de l'utilisateur dans son navigateur. La zone de lecture peut passer du thème clair au thème sombre ; la barre latérale conserve son identité violette.
 
-Le rendu accepte le Markdown courant, notamment les titres, listes, tableaux, liens et blocs de code. Les images sont servies depuis le dossier de leur article.
+Le rendu accepte le Markdown courant, notamment les titres, listes, tableaux, liens et blocs de code. Les images sont servies depuis le dossier de leur article. La première image Markdown d'un article devient aussi sa vignette dans les cartes ; `cover:` dans le frontmatter permet de choisir une autre image, avec un chemin relatif à l'article, par exemple `cover: assets/mon-article/apercu.png`.
 
 ## Identité visuelle
 

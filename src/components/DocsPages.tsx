@@ -2,15 +2,16 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { Icon } from "@/components/Icons";
 import MarkdownDocument from "@/components/MarkdownDocument";
-import type { DocCategory, DocPage } from "@/lib/docs";
+import { localMediaHref, type DocCategory, type DocPage } from "@/lib/docs";
 import { sitePath } from "@/lib/site-path";
 
 const accent=(category:DocCategory)=>({"--category-accent":category.accent} as CSSProperties);
 const helpCategory=(categories:DocCategory[])=>categories.find((item)=>/aide|assistance/i.test(item.slug));
 
 function PageCard({page,category}:{page:DocPage;category:DocCategory}) {
+  const cover = page.cover ? localMediaHref(page.cover,page) : undefined;
   return <Link className="page-card" href={page.href} data-category={category.slug} style={accent(category)}>
-    <div className="page-card-cover">{page.cover?<img src={sitePath(page.cover)} alt="" loading="lazy"/>:<span className="page-card-icon"><Icon name={category.icon} size={27}/></span>}</div>
+    <div className="page-card-cover">{cover?<img src={cover} alt="" loading="lazy"/>:<span className="page-card-icon"><Icon name={category.icon} size={27}/></span>}</div>
     <div className="page-card-copy"><span className="page-card-category">{category.name}</span><h3>{page.title}</h3><p>{page.description}</p><span className="page-card-arrow"><Icon name="arrow" size={17}/></span></div>
   </Link>;
 }

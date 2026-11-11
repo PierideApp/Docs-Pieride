@@ -19,6 +19,11 @@ const documentationCache = cacheGlobal.__pierideDocumentationCache ??= {};
 export function stripFrontmatter(source: string) {
   return source.replace(/^---\s*\r?\n[\s\S]*?\r?\n---\s*(?:\r?\n|$)/, "");
 }
+function firstImage(source: string) {
+  const markdown = stripFrontmatter(source).replace(/```[\s\S]*?```/g, "");
+  const match = markdown.match(/!\[[^\]]*\]\(\s*(?:<([^>]+)>|([^\s)]+))/);
+  return match?.[1] || match?.[2];
+}
 function field(source: string, name: string): string | undefined {
   return source.match(new RegExp("^" + name + ":\\s*[\"']?(.+?)[\"']?\\s*$", "m"))?.[1]?.trim();
 }
@@ -94,7 +99,7 @@ async function loadDocumentation(): Promise<Documentation> {
         source: root.name + "/" + relative.replace(/\\/g, "/"), slug, href: hrefFor(root.name, slug),
         categorySlug: root.name, title: field(front, "title") || titleFrom(content, relative, config.name as string),
         description: descriptionFromFrontmatter(front, content),
-        cover: field(front, "cover"), featured: field(front, "featured") === "true",
+        cover: field(front, "cover") || firstImage(content), featured: field(front, "featured") === "true",
         content, searchText: text(content).slice(0, 12000),
       } satisfies DocPage;
     }));
