@@ -15,7 +15,7 @@ Cette page regroupe les problèmes qu'on rencontre le plus souvent. Pour un bug 
 - Si la double authentification est demandée, réponds dans le délai indiqué.
 - Si la fenêtre ENT ne se ferme pas ou ne revient pas, relance Piéride.
 
-La connexion PRONOTE n'a pas encore été validée sur les trois systèmes. Un échec n'est pas forcément ta faute : copie le journal (**Paramètres > Piéride > Développeur**) dans ton signalement.
+La bêta est publiée pour Windows, macOS et Linux, mais les établissements peuvent avoir des configurations différentes. Si la connexion échoue malgré ces vérifications, copie le journal (**Paramètres > Piéride > Développeur**) dans ton signalement.
 
 ## « Le trousseau n'est pas disponible » (`keyring_unavailable`)
 

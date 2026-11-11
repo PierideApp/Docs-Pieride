@@ -7,13 +7,13 @@ featured: true
 
 # Questions fréquentes
 
-## Puis-je télécharger Piéride ?
+## La bêta de Piéride est-elle ouverte ?
 
-Pas encore : aucune version publique n'est publiée. Les installeurs ne sont donc pas disponibles. Pour lancer le projet depuis ses sources, suis le guide [Installer Piéride](/welcome/installation).
+Oui. La bêta publique `v0.1.0-beta.1` est disponible pour Windows, macOS et Linux. Tu peux la [télécharger depuis GitHub Releases](https://github.com/PierideApp/Pieride/releases/latest). Le guide [Installation](/welcome/installation) t'aide à choisir le bon fichier.
 
 ## Quels services scolaires fonctionnent ?
 
-PRONOTE est le service intégré dans le projet. Une intégration ÉcoleDirecte est en cours dans l'arbre de développement local ; elle n'a pas encore été publiée et reste à valider. Les autres intégrations ne sont pas disponibles dans un installateur public. La page [Services scolaires](/welcome/services) détaille cet état.
+PRONOTE est disponible dans la bêta. ÉcoleDirecte est en cours de développement mais n'est pas incluse dans cette version. Les autres intégrations ne sont pas encore disponibles. La page [Services scolaires](/welcome/services) détaille leur état.
 
 ## Pourquoi une page manque dans la barre latérale ?
 

@@ -15,8 +15,8 @@ Piéride prend en charge les **élèves** pour l'instant. Les comptes parents et
 
 | Choix                                       | Disponibilité                 |
 | ------------------------------------------- | ----------------------------- |
-| PRONOTE                                     | connexion intégrée au build de développement |
-| ÉcoleDirecte                                | intégration en cours dans l’arbre de développement local, non publiée et encore à valider |
+| PRONOTE                                     | disponible dans la bêta publique |
+| ÉcoleDirecte                                | en cours de développement, non incluse dans la bêta |
 | Skolengo, APPSCHO, ESUP Multi              | affichés mais indisponibles, marqués « Bientôt » |
 | iCal, TurboSelf, ARD, Izly, Alise           | pas encore proposés           |
 | Compte hors ligne                           | disponible, sans service      |
@@ -41,7 +41,7 @@ Un **compte hors ligne** n'a aucun service. Il affiche l'Accueil et les événem
 
 ## 4. Connecter ÉcoleDirecte
 
-Dans le build de développement actuel, choisis **ÉcoleDirecte** puis saisis les identifiants de ton compte. Si le service pose une question de sécurité, Piéride te demande la réponse avant de terminer la connexion. Cette intégration est encore en validation et aucune version publique de l'application n'est disponible.
+Une intégration ÉcoleDirecte est en cours de développement, mais elle n'est pas incluse dans la bêta publique `v0.1.0-beta.1`. La connexion ÉcoleDirecte n'est donc pas disponible dans cette version.
 
 Comme pour les autres services, les secrets de connexion sont conservés dans le trousseau du système, pas dans la base des données scolaires.
 

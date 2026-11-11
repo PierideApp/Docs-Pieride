@@ -7,7 +7,7 @@ featured: false
 
 # Aide Piéride
 
-Piéride est encore en développement. Cette rubrique répond d'abord aux questions liées à son état actuel et aux problèmes qui peuvent survenir pendant les essais.
+La bêta publique de Piéride est ouverte. Cette rubrique répond aux questions liées à la version de test et aux problèmes qui peuvent survenir pendant son utilisation.
 
 ![Visuel de présentation de Piéride](assets/index/accueil.jpg)
 

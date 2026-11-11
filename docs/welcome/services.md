@@ -11,14 +11,14 @@ Un service relie un compte Piéride à une source de données scolaire ou à un 
 
 | Service | Capacités attendues | État actuel |
 | --- | --- | --- |
-| **PRONOTE** | Cours, devoirs, notes, actualités et assiduité selon l'établissement | Intégré au projet de développement ; aucune version publique n'est encore distribuée |
-| **ÉcoleDirecte** | Données scolaires | Une intégration est en cours dans l'arbre de développement local ; elle n'est pas publiée et reste à valider |
+| **PRONOTE** | Cours, devoirs, notes, actualités et assiduité selon l'établissement | Disponible dans la bêta publique `v0.1.0-beta.1` |
+| **ÉcoleDirecte** | Données scolaires | En cours de développement ; non inclus dans la bêta |
 | Skolengo | Données scolaires | Pas encore disponible |
 | APPSCHO et ESUP Multi | Données universitaires | Pas encore disponibles |
 | iCal | Événements de calendrier | Pas encore disponible |
 | TurboSelf, ARD, Izly et Alise | Informations de cantine | Pas encore disponibles |
 
-Le projet n'a pas encore de version publique à télécharger. L'état du code peut changer avant une première publication. La page [Installation](/welcome/installation) décrit comment lancer le projet depuis ses sources.
+La bêta publique est ouverte. Les autres services listés ci-dessus ne sont pas disponibles dans cette version. Consulte [Installation](/welcome/installation) pour télécharger la bêta ou lancer le projet depuis ses sources.
 
 ## Capacités et modules
 

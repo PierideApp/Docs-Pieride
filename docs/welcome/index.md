@@ -11,7 +11,7 @@ Piéride est une application de bureau pour Windows, macOS et Linux. Elle rassem
 
 Cette documentation s'adresse à deux publics : **toi qui utilises Piéride** et **toi qui veux le développer ou y contribuer**.
 
-> **État du projet :** Piéride est encore en développement et aucune version publique n'est disponible. PRONOTE est intégré au code de développement. Une intégration ÉcoleDirecte est en cours dans l'arbre de développement local ; elle n'a pas encore été publiée ni validée. [Consulte les versions publiées](https://github.com/PierideApp/Pieride/releases).
+> **Bêta publique ouverte :** Piéride `v0.1.0-beta.1` est disponible pour Windows, macOS et Linux. Cette version de test inclut PRONOTE. ÉcoleDirecte est en cours de développement et n'est pas incluse dans la bêta. [Télécharger Piéride](https://github.com/PierideApp/Pieride/releases/latest) ou lire le guide [Installation](/welcome/installation).
 
 ## Pour utiliser Piéride
 

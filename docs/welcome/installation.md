@@ -1,25 +1,32 @@
 ---
 title: Installer Piéride
 slug: installation
-description: Prérequis et lancement de Piéride depuis les sources.
+description: Télécharger la bêta publique de Piéride ou compiler l'application depuis ses sources.
 featured: true
 ---
 
-## Pour utiliser Piéride
+## Télécharger la bêta publique
 
-Il n'existe pas encore de version à télécharger. Quand la première version sortira, les installeurs prévus sont :
+La bêta `v0.1.0-beta.1` est ouverte. Elle inclut la connexion PRONOTE. ÉcoleDirecte et les autres services scolaires ne sont pas inclus dans cette version.
 
-| Système | Format                                     |
-| ------- | ------------------------------------------ |
-| Windows | installeur NSIS (x64 et arm64)             |
-| macOS   | `.dmg` (universel, Intel et Apple Silicon) |
-| Linux   | `.deb`, `.rpm`, AppImage (x64 et arm64)    |
+[Télécharger Piéride depuis GitHub Releases](https://github.com/PierideApp/Pieride/releases/latest)
 
-Ces versions ne seront pas signées au départ : la signature Windows et la notarisation macOS sont prévues pour une future version. Le système peut donc afficher un **avertissement** à la première ouverture.
+Choisis le fichier correspondant à ton système :
 
-Pour l'instant, la seule façon de tester Piéride est de le compiler depuis les sources, comme décrit ci-dessous.
+| Système | Fichier |
+| --- | --- |
+| Windows 64 bits | `Pieride_0.1.0-beta.1_x64-setup.exe` |
+| Windows ARM64 | `Pieride_0.1.0-beta.1_arm64-setup.exe` |
+| macOS Intel et Apple Silicon | `Pieride_0.1.0-beta.1_universal.dmg` |
+| Linux Debian ou Ubuntu, x86-64 | `Pieride_0.1.0-beta.1_amd64.deb` |
+| Linux Debian ou Ubuntu, ARM64 | `Pieride_0.1.0-beta.1_arm64.deb` |
+| Linux AppImage, x86-64 ou ARM64 | Fichier `.AppImage` correspondant à l'architecture |
+
+La bêta est une version de test : des problèmes peuvent subsister et l'application évoluera. Tu peux d'abord la découvrir avec le compte de démo, sans renseigner tes identifiants scolaires. Les notes de version et les fichiers de téléchargement sont sur la [page de la bêta](https://github.com/PierideApp/Pieride/releases/latest).
 
 ## Compiler depuis les sources
+
+Cette méthode s'adresse aux personnes qui souhaitent compiler Piéride elles-mêmes.
 
 ### Prérequis
 
